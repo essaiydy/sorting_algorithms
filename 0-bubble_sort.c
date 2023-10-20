@@ -2,7 +2,7 @@
 
 /**
  * bubble_sort - A function that sorts an array of integers in ascending
- * 		 order using the Bubble sort algorithm
+ * order using the Bubble sort algorithm
  * @array: An array
  * @size: Size of array
  */
@@ -13,7 +13,7 @@ void bubble_sort(int *array, size_t size)
 
 	if (size == 0 || size == 1)
 		return;
-	for (i = 0; i < size; i ++)
+	for (i = 0; i < size; i++)
 	{
 		for (j = 0; j < size - i - 1; j++)
 		{
